@@ -115,7 +115,6 @@ func (P Schedule) Clear() {
 	P.mem.DellAll()
 }
 
-//
 /*################ EXPORT ################*/
 
 //ListEvent elenca gli eventi presenti nello schedule
