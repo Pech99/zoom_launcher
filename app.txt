@@ -1,0 +1,97 @@
+"C:\Users\vitto\AppData\Roaming\Zoom\bin\Zoom.exe"
+    "--url=
+        zoommtg://zoom.us/join?
+            action=join&
+            confno=96040347165&
+            pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09&
+            zc=0&
+            mcv=0.92.11227.0929&
+            confid=dXRpZD1VVElEXzgwNmQxY2QzYTVmMzQ5YjU4ODI3NDg0ODIzZTEwMzI5JnVzcz1BSHBZNkdubWZlVGxubGV6bjB3X1FEdlNfdGE4clQ1VUdtNDA2QkllVElIek1KbmFJZlhzTHlLU1NTUmhJdkZyY2ZhWHJ0cWhHVW1Qa0N2eXpsVThHdy50MXcxUWlQQ3oyZ1JHUFZnJnRpZD02ZjVhNGYyNGE1Nzc0MjI5OGFmNjYxMGMzYjNiNDhjYw%3D%3D&
+            browser=chrome&
+            t=1618910426945
+    "
+    Disabilitato
+
+
+https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+
+
+
+"C:\Users\vitto\AppData\Roaming\Zoom\bin\Zoom.exe" "--url=zoommtg://zoom.us/join?confno=96040347165&pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09" Disabilitato
+
+https://us02web.zoom.us/j/85168602152?pwd=VWVYbzkvMW5id0thSXcxWkE5NzlJZz09
+
+Nome	    PID	    Stato	        utente	CPU	Memoria     Th  Lett	Scr	Riga di comando	Virtualizzazione controllo dell'account utente
+Zoom.exe	10144   In esecuzione	vitto	00 	56.676 K	30	3.435	161	C:\Users\vitto\AppData\Roaming\Zoom\bin\Zoom.exe \"--url=zoommtg://zoom.us/join?confno=85168602152&pwd=VWVYbzkvMW5id0thSXcxWkE5NzlJZz09\" Disabilitato	Disabilitato
+
+
+"C:\Users\vitto\AppData\Roaming\Zoom\bin\Zoom.exe" "--url=zoommtg://zoom.us/join?confno=96040347165&pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09"	Disabilitato
+"C:\Users\vitto\AppData\Roaming\Zoom\bin\Zoom.exe" "--url=zoommtg://zoom.us/join?confno=85168602152&pwd=VWVYbzkvMW5id0thSXcxWkE5NzlJZz09"   Disabilitato
+
+https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+
+
+
+
+
+	if myTime.Near(today, myTime.DayToInt(1, 11, 30)) { //stat		https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+		return "96040347165", "R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09"
+	}
+	if myTime.Near(today, myTime.DayToInt(1, 19, 30)) { //Karatè	https://us02web.zoom.us/j/88985808797?pwd=ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09
+		return "88985808797", "ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09"
+	}
+	if myTime.Near(today, myTime.DayToInt(2, 9, 30)) { //OS Lab		https://zoom.us/j/8863924484?pwd=MjV0Nm13bG9jTGFFelUraG1VMmlpZz09
+		return "8863924484", "MjV0Nm13bG9jTGFFelUraG1VMmlpZz09"
+	}
+	if myTime.Near(today, myTime.DayToInt(3, 9, 30)) { //OS			https://zoom.us/j/97203876618
+		return "97203876618", ""
+	}
+	if myTime.Near(today, myTime.DayToInt(3, 14, 30)) { //stat		https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+		return "96040347165", "R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09"
+	}
+	if myTime.Near(today, myTime.DayToInt(4, 9, 30)) { //OS			https://zoom.us/j/97203876618
+		return "97203876618", ""
+	}
+	if myTime.Near(today, myTime.DayToInt(4, 19, 30)) { //Karatè	https://us02web.zoom.us/j/88985808797?pwd=ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09
+		return "88985808797", "ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09"
+	}
+
+
+	E, _ := event.New().SetName("stat").SetID("96040347165").SetPsw("R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09").SetDate(1, 11, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("Karatè").SetID("88985808797").SetPsw("ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09").SetDate(1, 19, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("OS Lab").SetID("8863924484").SetPsw("MjV0Nm13bG9jTGFFelUraG1VMmlpZz09").SetDate(2, 9, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("OS").SetID("97203876618").SetDate(3, 9, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("stat").SetID("96040347165").SetPsw("R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09").SetDate(3, 14, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("OS").SetID("97203876618").SetDate(4, 9, 30).Build()
+	S.AddEvent(E)
+	E, _ = event.New().SetName("Karatè").SetID("88985808797").SetPsw("ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09").SetDate(4, 19, 30).Build()
+	S.AddEvent(E)
+
+
+zoom_lancher.exe w clear
+zoom_lancher.exe w add Statistica 1:11:30 https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+zoom_lancher.exe w add "Karatè (Valla)" 1:18:30 https://us04web.zoom.us/j/77603094274?pwd=aUk2MmQrS2JoNFpuVWE2MHlNNWlmdz09
+zoom_lancher.exe w add "Karatè (Milani)" 1:19:30 https://us02web.zoom.us/j/88985808797?pwd=ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09
+zoom_lancher.exe w add "OS Lab" 2:09:30 https://zoom.us/j/8863924484?pwd=MjV0Nm13bG9jTGFFelUraG1VMmlpZz09
+zoom_lancher.exe w add Statistica 3:14:30 https://zoom.us/j/96040347165?pwd=R2VCcVV3ODJ2WFI5RFA3L3hUYThodz09
+zoom_lancher.exe w add "OS Lab" 4:09:30 https://zoom.us/j/8863924484?pwd=MjV0Nm13bG9jTGFFelUraG1VMmlpZz09
+zoom_lancher.exe w add "Karatè (Valla)" 4:18:30 https://us04web.zoom.us/j/77603094274?pwd=aUk2MmQrS2JoNFpuVWE2MHlNNWlmdz09
+zoom_lancher.exe w add "Karatè (Milani)" 4:19:30 https://us02web.zoom.us/j/88985808797?pwd=ZDJycUxBdkpXdllnWXk2VXRnVk5aQT09
+zoom_lancher.exe w list
+
+
+zoom_lancher_1.3.2.exe w clear
+zoom_lancher_1.3.2.exe w add Reti 1:16:00 https://us02web.zoom.us/j/85415508574?pwd=Y1ZvZ3hHNzRDaWlQYzVEbmZaNjM5UT09
+zoom_lancher_1.3.2.exe w add Reti 4:14:30 https://us02web.zoom.us/j/87804796116?pwd=OTR0am9tcEpkWSswTHdUam9aN2FDdz09
+zoom_lancher_1.3.2.exe w list
+
+
+
+
+
+
